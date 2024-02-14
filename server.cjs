@@ -39,6 +39,7 @@ app.post('/add-restaurant', async function(request, response) {
             "avgRating" : request.body.avgRating,
             "costForTwo" : request.body.costForTwo,
             "cuisines" : request.body.cuisines,
+            "imagelink" : request.body.imagelink,
             "name" : request.body.name
         })
         response.status(201).json({
